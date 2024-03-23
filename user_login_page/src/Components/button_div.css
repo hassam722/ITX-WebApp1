@@ -1,0 +1,32 @@
+
+.button_div{
+    background-color: white;
+    width: 30%;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.25);
+}
+
+.button_div button {
+    width: 60%;
+    background-color: #5754EB;
+    border: 0;
+    border-radius: 20px;
+    color: white ;
+    height: 30px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.25);
+}
+
+.button_div button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #5754EB;
+}
+
+.out_btn{
+    margin-top: 20px;
+}

@@ -7,7 +7,6 @@ from .serializer import EmployeeSerializer
 
 class EmployeeView(APIView):
     def get(self, request,pk):
-        # print(pk)
         employee = Employee.objects.get(user_id = pk)
         serializer = EmployeeSerializer(employee)
         return Response(serializer.data)

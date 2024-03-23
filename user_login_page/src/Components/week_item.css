@@ -1,0 +1,23 @@
+.week-item{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.week-item p{
+    margin: 0;
+}
+
+.week-item-day{
+    font-size: 18px;
+    font-weight: 500;
+}
+.week_value_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
